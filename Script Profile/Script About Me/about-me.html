@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="k2d-regular">
+    <head>
+        <link rel="stylesheet" href="CSS/BIO/bio.css">
+        <link rel="stylesheet" href="CSS/BIO/bio MQ.css">
+        <link rel="stylesheet" href="CSS/NB/navigation bar.css"> <!-- NB = Navigation Bar -->
+        <link rel="stylesheet" href="CSS/NB/navigation bar MQ.css"> <!-- MQ = Media Query -->
+        <link rel="stylesheet" href="CSS/BR/bottom bar.css">  <!-- BR = Bottom Bar -->
+        <link rel="stylesheet" href="CSS/BR/bottom bar MQ.css">
+        <link rel="stylesheet" href="CSS/HTML/html.css">
+        <link rel="stylesheet" href="CSS/HTML/html MQ.css">
+        <link rel="stylesheet" href="CSS/WH/wh.css">  <!-- WH = Work History -->
+        <link rel="stylesheet" href="CSS/WH/wh MQ.css">
+        <link rel="stylesheet" href="CSS/UB/upper-bar.css">
+        <link rel="stylesheet" href="CSS/UB/upper-bar MQ.css">
+
+            <!-- Custom Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">    
+
+            <!-- Custom Fonts -->
+
+        <title>Talent Hub - About User</title>
+    </head>
+
+    <main>
+        <header class="navigation-bar">
+            <img 
+                src="/UIs Icons/Light Mode - Creators.png"
+                src-light="/UIs Icons/Light Mode - Creators.png"
+                src-dark="/UIs Icons/Dark Mode - Creators.png"
+                width="36" height="36" class="creators-img" id="icon"
+                alt="2 peoples side by side. Creators Icon."
+            >
+            <a href=""><button class="creators">CREATORS</button></a>
+            <img 
+                src="/UIs Icons/Light Mode - Jobs.png"
+                src-light="/UIs Icons/Light Mode - Jobs.png"
+                src-dark="/UIs Icons/Dark Mode - Jobs.png" 
+                width="40" height="40" class="jobs-img" id="icon"
+                alt="Handbag. Jobs Icon" id="icon"
+            >
+            <a href=""><button class="jobs">JOBS</button><a>
+            <a href="/Script User Home/user-home.html" class="logo">
+                <img 
+                    src="/UIs Icons/Light Mode - Logo.png"
+                    src-light="/UIs Icons/Light Mode - Logo.png"
+                    src-dark="/UIs Icons/Dark Mode - Logo.png"
+                    width="70" height="70" class="logo" id="icon"
+                    alt="H with left and middle line in blue color and the right line in dark gray to dark color. Talent Hub Icon."
+                >
+            </a>
+            <img
+                src="/UIs Icons/Light Mode - Teams.png"
+                src-light="/UIs Icons/Light Mode - Teams.png"
+                src-dark="/UIs Icons/Dark Mode - Teams.png"
+                width="40" height="40" class="teams-img" id="icon"
+                alt="3 peoples side by side with < / > in their chest. Teams Icon."
+            >
+            <a href=""><button class="teams">TEAMS</button></a>
+        </header>
+
+        <body onload="onload()">
+            <section>
+                <div class="upper-bar">
+                    <div class="return">
+                        <a href="/Script Profile/profile.html" class="return-background">
+                            <img 
+                                src="/UIs Icons/Light Mode - Return.png" 
+                                src-light="/UIs Icons/Light Mode - Return.png"
+                                src-dark="/UIs Icons/Dark Mode - Return.png"
+                                width="30px" height="30px" class="return-img" id="icon"
+                                alt="A button with a arrow pointing to the left. Return Buttton."
+                            >
+                        </a>
+                    </div>
+                    <div class="about-tab">
+                        <p class="abt-me">ABOUT ME</p>
+                    </div>
+                </div>
+            </section>
+            <section>>
+                <div class="bio-tab">
+                    <div class="bio-background">
+                        <p class="bio-text">BIO:</p>
+                        <textarea maxlength="3000" name="Where Bio Gonna Appear" class="bio-area"></textarea>
+                        <div class="social-media">
+                            <div class="tw">
+                                <img 
+                                    src="/UIs Icons/Light Mode - Twitter.png"
+                                    src-light="/UIs Icons/Light Mode - Twitter.png"
+                                    src-dark="/UIs Icons/Dark Mode - Twitter.png"
+                                    width="30px" height="30px" class="tw-img" id="icon"
+                                    alt="New Twitter logo."
+                                >
+                                <a href="https://twitter.com/gabsmsey" class="tw-text"><button class="tw-text">TWITTER</button></a>
+                            </div>
+                            <div class="yt">
+                                <img 
+                                    src="/UIs Icons/Light Mode - YouTube.png" 
+                                    src-light="/UIs Icons/Light Mode - YouTube.png"
+                                    src-dark="/UIs Icons/Dark Mode - YouTube.png"
+                                    width="30px" height="30px" class="yt-img" id="icon"
+                                    alt="YouTube logo."
+                                >
+                                <a href="https://www.youtube.com/channel/UCtQIB2TqLP6p3WQ3svYgI5w"><button class="yt-text">YOUTUBE</button></a>
+                            </div>
+                            <div class="gh">
+                                <img
+                                    src="/UIs Icons/Light Mode - GitHub.png"
+                                    src-light="/UIs Icons/Light Mode - GitHub.png"
+                                    src-dark="/UIs Icons/Dark Mode - GitHub.png" 
+                                    width="25px" height="25px" class="gh-img" id="icon"
+                                    alt="GitHub logo."
+                                >
+                                <a href="https://github.com/gabspedro"><button class="gh-text">GITHUB</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="work-history-tab">
+                    <p class="wh-text">WORK HISTORY</p>
+                    <div class="work-overflow">
+                        <div class="job-img-background">
+                            <div class="job-img">
+                                <img 
+                                    src="" 
+                                    class="company-img" width="100%" height="100%"
+                                >
+                            </div>
+                        </div>
+                        <div class="job-name-n-role">  
+                                <input maxlength="27" placeholder="COMPANY NAME" name="Company Name" class="company-name"></input>
+                        </div>
+                        <div class="description">
+                                <textarea maxlength="500" placeholder="DESCRIPTION" name="Company Description" class="company-desc"></textarea>
+                        </div>
+                        <div class="job-img-background2">
+                            <div class="job-img2">
+                                <img src="" class="company-img2" width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="job-name-n-role2">  
+                            <input maxlength="27" placeholder="COMPANY NAME" name="Company Name" class="company-name2"></input>
+                        </div>
+                        <div class="description2">
+                            <textarea maxlength="500" placeholder="DESCRIPTION" name="Company Description" class="company-desc2"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+
+        <footer>
+            <div class="bottom-bar">
+                <p class="copyright">gabs.msey©</p>
+                <p class="pd">Gabriel Henrique Oliveira Pedro - PDITA130</p>
+                <a href=""><button class="about-us">ABOUT US</button></a>
+                <a href="" class="arrow">
+                    <img 
+                        src="/UIs Icons/Light Mode - Arrow.png"
+                        src-light="/UIs Icons/Light Mode - Arrow.png"
+                        src-dark="/UIs Icons/Dark Mode - Arrow.png"
+                        width="10" height="10" class="bb-arrow" id="icon"
+                        alt="A arrow without the tail pointing to the right"
+                    >
+                </a>
+            </div>
+        </footer>
+        <script src="/Script User Home/theme.js"></script>
+    </main>
+</html>

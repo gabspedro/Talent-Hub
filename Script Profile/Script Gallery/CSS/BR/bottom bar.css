@@ -1,0 +1,77 @@
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #282828;
+	--fifth-backgroud: #202020;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Bottom Bar */
+
+.bottom-bar {
+	background-color: var(--bottombar-color);
+	display: flex;
+	justify-content: space-around;
+	width: 1878px;
+	height: 43px;
+	position: absolute;
+	bottom: -265px;
+	left: 0px;
+	box-shadow: 0px -4px 15px 0px rgba(0, 0, 0, 0.22);
+}
+.copyright { 
+	font-size: 14px;
+	position: absolute;
+	top: -2px;
+	left: 50px;
+}
+.pd { 
+	font-size: 10px;
+	position: absolute;
+	top: 5px
+}
+.about-us { 
+	font-size: 14px;
+	height: 18px;
+	position: absolute;
+	top: 12px;
+	right: 65px;
+}
+.about-us:hover {
+	font-size: 15px;
+}
+.bb-arrow {
+	position: absolute;
+	top: 16px;
+	right: 50px;
+	transition-duration: 0.3s;
+}
+.bb-arrow:hover {
+	width: 14px;
+	height: 14px;
+}

@@ -1,0 +1,132 @@
+/* Default Theme (Light Theme) */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* About Me */
+
+.about-me {
+	background-color: var(--second-background);
+	width: 850px;
+	height: 600px;
+	position: absolute;
+	top: 1145px;
+	left: 518px;
+	border-radius: 15px;
+}
+.abt {
+	color: var(--text-color);
+	font-size: 18px;
+	position: absolute;
+	top: -270px;
+	left: 30px;
+	text-decoration: none;
+}
+.abt:hover {
+	font-size: 20px;
+}
+.abt:visited {
+	color: var(--text-color);
+	text-decoration: none;
+}
+.abt-arrow {
+	position: absolute;
+	top: 23px;
+	left: 140px;
+	transition-duration: 0.3s;
+}
+.abt-arrow:hover {
+	width: 17px;
+	height: 17px;
+}
+.social-media {
+	display: flex;
+	justify-content: space-evenly;
+}
+.tw-img {
+	position: absolute;
+	bottom: 6px;
+	left: 120px;
+}
+.tw-text {
+	font-size: 18px;
+	height: 20px;
+	position: absolute;
+	bottom: 8px;
+	left: 75px;
+	text-decoration: none;
+}
+.tw-text:hover {
+	font-size: 20px;
+}
+.tw-text:visited {
+	color: var(--text-color);
+}
+.yt-img {
+	position: absolute;
+	bottom: 6px;
+	left: 365px;
+}
+.yt-text {
+	font-size: 18px;
+	height: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 400px;
+	text-decoration: none;
+}
+.yt-text:hover {
+	font-size: 20px;
+}
+.yt-text:visited {
+	color: var(--text-color);
+}
+.gh-img {
+	position: absolute;
+	bottom: 9px;
+	left: 620px;
+}
+.gh-text {
+	font-size: 18px;
+	height: 20px;
+	position: absolute;
+	bottom: 14px;
+	left: 652px;
+	text-decoration: none;
+}
+.gh-text:hover {
+	font-size: 20px;
+}
+.gh-text:visited {
+	color: var(--text-color);
+}

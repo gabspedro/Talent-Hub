@@ -1,0 +1,87 @@
+/* Default Theme (Light Theme) */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* About Me */
+    
+@media (max-width: 481px) {
+
+    .bio-tab {
+        width: 441px;
+        height: 1343px;
+        position: absolute;
+        left: 20px;
+    }
+    .bio-background {
+        width: 401px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .bio-area {
+        width: 361px;
+        height: 470px;
+    }
+    .tw-img {
+        position: absolute;
+        top: 525px;
+        left: 20px;
+    }
+    .tw-text {
+        position: absolute;
+        top: 264px;
+        left: 22px;
+    }
+    .yt-img {
+        position: absolute;
+        top: 525px;
+        left: 147px;
+    }
+    .yt-text {
+        position: absolute;
+        top: 528px;
+        left: 177px;
+    }
+    .gh-img {
+        position: absolute;
+        top: 526px;
+        left: 280px;
+    }
+    .gh-text {
+        font-size: 16px;
+        position: absolute;
+        top: 527px;
+        left: 310px;
+    } 
+}

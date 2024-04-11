@@ -1,0 +1,177 @@
+/* Default Theme (Light Mode) */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Gallery */
+
+.gallery-tab {
+	background-color: var(--second-background);
+	width: 850px;
+	height: 1039px;
+	position: absolute;
+	top: 120px;
+	left: 518px;
+	border-radius: 15px;
+}
+.glly-overflow {
+    width: 820px;
+    height: 1013px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.glly-overflow::-webkit-scrollbar {
+	width: 5px;
+}
+.glly-overflow::-webkit-scrollbar-thumb {
+	background-color: var(--third-background);
+	width: 10px;
+	border-radius: 100px;
+}
+.glly-overflow::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 100px;
+}
+.photo1 {
+	background-color: var(--fourth-background);
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 15px 0px 0px 0px;
+}
+.photo1-img {
+	opacity: 100%;
+	position: absolute;
+	left: -35px;
+	clip-path: inset(0% 9.5% 0% 7% round 15px 0px 0px 0px)
+}
+.photo2 {
+	background-color: var(--fourth-background);
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	right: 11px;
+	border-radius: 0px 15px 0px 0px;
+}
+.photo2-img {
+	opacity: 100%;
+	position: absolute;
+	bottom: -50px;
+	right: -35px;
+	clip-path: inset(46.4% 7% 6% 9.2% round 0px 15px 0px 0px);
+}
+.photo3 {
+	background-color: var(--fourth-background);
+	width: 400px;
+	height: 402px;
+	position: absolute;
+	top: 408px;
+	left: 0px;
+}
+.photo3-img {
+	position: absolute;
+	bottom: -160px;
+	right: -35px;
+	clip-path: inset(33.4% 7.5% 19% 9.2%);
+}
+.photo4 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 408px;
+	left: 408px;
+}
+.photo5 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 408px;
+	left: 614px;
+}
+.photo6 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 613px;
+	left: 408px;
+}
+.photo7 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 613px;
+	left: 614px;
+}
+.photo8 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 817px;
+	left: 0px;
+	border-radius: 0px 0px 0px 15px;
+}
+.photo9 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 817px;
+	left: 204px;
+}
+.photo10 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 817px;
+	left: 408px;
+}
+.photo11 {
+	background-color: var(--fourth-background);
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 817px;
+	left: 614px;
+	border-radius: 0px 0px 15px 0px;
+}

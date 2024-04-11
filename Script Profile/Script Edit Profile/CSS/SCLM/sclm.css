@@ -1,0 +1,140 @@
+/* Default Theme (Light Mode)  */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Social Media */
+
+.social-media-tab {
+	background-color: var(--second-background);
+	width: 415px;
+	height: 40px;
+	position: absolute;
+	top: 800px;
+	left: 955px;
+	border-radius: 8px;
+}
+.social-media-text {
+	font-size: 18px;
+	font-weight: 500;
+	position: absolute;
+	top: -10px;
+	left: 145px;
+}
+.sm-1 {
+	background-color: var(--second-background);
+	width: 415px;
+	height: 40px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	border-radius: 8px;
+}
+.twitter {
+	font-weight: 500;
+	position: absolute;
+	top: -8px;
+	left: 15px;
+
+	text-decoration: none;
+}
+.twitter:visited {
+	color: var(--text-color);
+}
+.link-tw {
+	font-weight: 500;
+	position: absolute;
+	top: 8px;
+	left: 95px;
+	text-decoration: none;
+}
+.link-tw:visited {
+	color: var(--text-color);
+}
+.sm-2 {
+	background-color: var(--second-background);
+	width: 415px;
+	height: 40px;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	border-radius: 8px;
+}
+.youtube {
+	font-weight: 500;
+	position: absolute;
+	top: 8px;
+	left: 15px;
+	text-decoration: none;
+}
+.youtube:visited {
+	color: var(--text-color);
+}
+.link-yt {
+	font-weight: 500;
+	position: absolute;
+	top: 8px;
+	left: 100px;
+	text-decoration: none;
+}
+.link-yt:visited {
+	color: var(--text-color);
+}
+.sm-3 {
+	background-color: var(--second-background);
+	width: 415px;
+	height: 40px;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	border-radius: 8px;
+}
+.github {
+	font-weight: 500;
+	position: absolute;
+	top: -8px;
+	left: 15px;
+	text-decoration: none;
+}
+.github:visited {
+	color: var(--text-color);
+}
+.link-gh {
+	font-weight: 500;
+	position: absolute;
+	top: 8px;
+	left: 85px;
+	text-decoration: none;
+}
+.link-gh:visited {
+	color: var(--text-color);
+}

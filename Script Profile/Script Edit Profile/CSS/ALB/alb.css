@@ -1,0 +1,217 @@
+/* Default Theme (Light Mode)  */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Albuns */
+
+.album-tab {
+	background-color: var(--second-background);
+	width: 415px;
+	height: 40px;
+	position: absolute;
+	top: 1445px;
+	left: 518px;
+	border-radius: 8px;
+}
+.album-text {
+	font-size: 18px;
+	font-weight: 500;
+	position: absolute;
+	top: -10px;
+	left: 155px;
+}
+.a1 {
+	background-color: var(--second-background);
+	width: 202px;
+	height: 40px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	border-radius: 8px;
+}
+.a1-text {
+	position: absolute;
+	font-weight: 500;
+	top: -7px;
+	left: 62px;
+}
+.a2 {
+	background-color: var(--second-background);
+	width: 202px;
+	height: 40px;
+	position: absolute;
+	top: 50px;
+	left: 213px;
+	border-radius: 8px;
+}
+.a2-text {
+	position: absolute;
+	font-weight: 500;
+	top: -7px;
+	left: 40px;
+}
+.a3 {
+	background-color: var(--second-background);
+	width: 202px;
+	height: 40px;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	border-radius: 8px;
+}
+.a3-text {
+	position: absolute;
+	font-weight: 500;
+	top: -7px;
+	left: 50px;
+}
+.a4 {
+	background-color: var(--second-background);
+	width: 202px;
+	height: 40px;
+	position: absolute;
+	top: 100px;
+	left: 213px;
+	border-radius: 8px;
+}
+.a4-add {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+.a4-add:hover {
+	font-size: 24px;
+}
+.img-add-background {
+	background-color: var(--second-background);
+	font-size: 16px;
+	width: 415px;
+	height: 400px;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	border-radius: 8px;
+}
+.img1-tab {
+	background-color: var(--third-background);
+	width: 190px;
+	height: 380px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 8px;
+}
+.add-img1 {
+	background-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 98%;
+	border: none;
+}
+.add-img-img1:hover {
+	width: 58px;
+	height: 58px;
+}
+.img2-tab {
+	background-color: var(--third-background);
+	width: 190px;
+	height: 183px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 8px;
+}
+.add-img2 {
+	background-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 107%;
+	border: none;
+}
+.add-img-img2:hover {
+	height: 58px;
+	width: 58px;
+}
+.img3-tab {
+	background-color: var(--third-background);
+	width: 190px;
+	height: 183px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 8px;
+}
+.add-img3 {
+	background-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 102%;
+	border: none;
+}
+.add-img-img3:hover {
+	height: 58px;
+	width: 58px;
+}
+.featured-img {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.up-gallery-tab {
+	background-color: var(--second-background);
+	width: 415px;
+	height: 35px;
+	position: absolute;
+	top: 568px;
+	border-radius: 8px;
+}
+.up-gallery {
+	background-color: rgba(0, 0, 0, 0);
+	font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+.up-gallery:hover {
+	font-size: 22px;
+}
+.up-img {
+	position: absolute;
+	top: 4px;
+	left: 290px;
+}
+.up-img:hover {
+	width: 31px;
+	height: 31px;
+}

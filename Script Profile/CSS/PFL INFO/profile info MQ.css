@@ -1,0 +1,100 @@
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Profile Info */
+
+@media (max-width: 481px) {
+
+/* Profile Info */
+    
+    .profile-info {
+        position: absolute;
+        top: 265px;
+        left: 160px;
+    }
+        name {
+        font-size: 14px;
+        position: absolute;
+        top: -12px;
+    }
+    .country-flag1 {
+        position: absolute;
+        top: 4px;
+        left: 125px;	
+    }
+    .country-flag2 {
+        position: absolute;
+        top: 16px;
+        left: 125px;	
+    }
+    .role-1 {
+        font-weight: 500;
+        font-size: 10px;
+        position: absolute;
+        top: -10px;
+        left: 145px;
+    }
+    .ball-1 {
+        display: none;
+    }
+    .role-2 {
+        font-weight: 500;
+        font-size: 10px;
+        position: absolute;
+        top: 0.5px;
+        left: 145px;
+    }
+    .ball-2 {
+        display: none;
+    }
+    .role-3 {
+        font-weight: 500;
+        font-size: 10px;
+        position: absolute;
+        top: 10.5px;
+        left: 145px;
+    }
+    .pf-settings {
+        position: absolute;
+        top: 3px;
+        left: 270px;
+        transition-duration: 0s;
+    }
+    .pfs {
+        transition-duration: 0s;
+    }
+    .pfs:hover {
+        width: 25px;
+        height: 25px;
+    }
+}

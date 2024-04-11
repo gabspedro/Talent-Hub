@@ -1,0 +1,119 @@
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Profile Info */
+
+.profile-info {
+	width: 500px;
+	height: 25px;
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+	top:280px;
+	left: 720px;
+}
+.name {
+	font-weight: 600;
+	font-size: 18px;
+	position: absolute;
+	top: -20px;
+	left: 10px;
+}
+.at-sign {
+	font-size: 12px;
+	position: absolute;
+	top: 3px;
+	left: 20px;
+}
+.country-flag1 {
+	position: absolute;
+	top: 4px;
+	left: 125px;
+}
+.country-flag2 {
+	position: absolute;
+	top: 16px;
+	left: 125px;
+}
+.role-1 {
+	font-weight: 500;
+	font-size: 12px;
+	position: absolute;
+	top: -5px;
+	left: 190px;
+}
+.ball-1 {
+	background-color: var(--text-color);
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: 13px;
+	left: 264.5px;
+	border-radius: 100px;
+}
+.ball-2 {
+	background-color: var(--text-color);
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: 13px;
+	left: 399px;
+	border-radius: 100px;
+}
+.role-2 {
+	font-weight: 500;
+	font-size: 12px;
+	position: absolute;
+	top: -5px;
+	left: 286px;
+}
+.role-3 {
+	font-weight: 500;
+	font-size: 12px;
+	position: absolute;
+	top: -5px;
+	left: 420px;
+}
+.pf-settings {
+	position: absolute;
+	top: 3px;
+	right: -110px;
+	transition-duration: 0.3s;
+}
+.pfs {
+	transition-duration: 0.2s;
+}
+.pfs:hover {
+	width: 27px;
+	height: 27px;
+}

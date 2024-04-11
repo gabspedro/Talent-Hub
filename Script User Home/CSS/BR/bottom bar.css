@@ -1,0 +1,44 @@
+/* Bottom Bar */
+
+.bottom-bar {
+	background-color: var(--bottombar-color);
+	display: flex;
+	justify-content: space-around;
+	width: 1878px;
+	height: 43px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	box-shadow: 0px -4px 15px 0px rgba(0, 0, 0, 0.22);
+}
+.copyright { 
+	font-size: 14px;
+	position: absolute;
+	top: -2px;
+	left: 50px;
+}
+.pd { 
+	font-size: 10px;
+	position: absolute;
+	top: 5px
+}
+.about-us { 
+	font-size: 14px;
+	height: 18px;
+	position: absolute;
+	top: 12px;
+	right: 65px;
+}
+.about-us:hover {
+	font-size: 15px;
+}
+.arrow-tran2 {
+	position: absolute;
+	top: 16px;
+	right: 50px;
+	transition-duration: 0.3s;
+}
+.arrow-tran2:hover {
+	width: 14px;
+	height: 14px;
+}

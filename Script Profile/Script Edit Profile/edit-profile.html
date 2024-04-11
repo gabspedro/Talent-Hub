@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="k2d-regular">
+    <head>
+        <link rel="stylesheet" href="CSS/HTML/html.css">
+        <link rel="stylesheet" href="CSS/HTML/html MQ.css">
+        <link rel="stylesheet" href="CSS/NB/navigation bar.css"> <!-- NB = Navigation Bar -->
+        <link rel="stylesheet" href="CSS/NB/navigation bar MQ.css"> <!-- MQ = Media Query -->
+        <link rel="stylesheet" href="CSS/BR/bottom bar.css"> <!-- BR = Bottom Bar -->
+        <link rel="stylesheet" href="CSS/BR/bottom bar MQ.css"> 
+        <link rel="stylesheet" href="CSS/BNR/banner.css"> <!-- BNR = Banner -->
+        <link rel="stylesheet" href="CSS/BNR/banner MQ.css">
+        <link rel="stylesheet" href="CSS/NAME/name tab.css">
+        <link rel="stylesheet" href="CSS/NAME/name tab MQ.css">
+        <link rel="stylesheet" href="CSS/BIO/bio.css">
+        <link rel="stylesheet" href="CSS/BIO/bio MQ.css">
+        <link rel="stylesheet" href="CSS/SPTY/spty.css">
+        <link rel="stylesheet" href="CSS/SPTY/spty MQ.css"> <!-- SPTY = Specialty -->
+        <link rel="stylesheet" href="CSS/LANG/lang.css"> <!-- LANG = Language -->
+        <link rel="stylesheet" href="CSS/LANG/lang MQ.css">
+        <link rel="stylesheet" href="CSS/SCLM/sclm.css"> <!-- SCLM = Social Media -->
+        <link rel="stylesheet" href="CSS/SCLM/sclm MQ.css">
+        <link rel="stylesheet" href="CSS/WH/wh.css"> <!-- WH = Work History -->
+        <link rel="stylesheet" href="CSS/WH/wh MQ.css">
+        <link rel="stylesheet" href="CSS/ALB/alb.css"> <!-- ALB = Album -->
+        <link rel="stylesheet" href="CSS/ALB/alb MQ.css">
+
+            <!-- Custom Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">    
+
+            <!-- Custom Fonts -->
+
+        <title>Talent Hub - Profile Editor</title>
+    </head>
+
+    <main>
+        <header class="navigation-bar">
+            <a href=""><img 
+                src="/UIs Icons/Light Mode - Creators.png"
+                src-light="/UIs Icons/Light Mode - Creators.png"
+                src-dark="/UIs Icons/Dark Mode - Creators.png"
+                width="36" height="36" class="creators-img" id="icon"
+                alt="2 peoples side by side. Creators Icon."
+            ></a>
+            <a href=""><button class="creators">CREATORS</button></a>
+            <img 
+                src="/UIs Icons/Light Mode - Jobs.png"
+                src-light="/UIs Icons/Light Mode - Jobs.png"
+                src-dark="/UIs Icons/Dark Mode - Jobs.png" 
+                width="46" height="46" class="jobs-img" id="icon"
+                alt="Handbag. Jobs Icon" id="icon"
+            >
+            <a href=""><button class="jobs">JOBS</button></a>
+            <a href="/Script User Home/user-home.html" class="logo">
+                <img 
+                    src="/UIs Icons/Light Mode - Logo.png"
+                    src-light="/UIs Icons/Light Mode - Logo.png"
+                    src-dark="/UIs Icons/Dark Mode - Logo.png"
+                    width="70" height="70" class="logo" id="icon"
+                    alt="H with left and middle line in blue color and the right line in dark gray to dark color. Talent Hub Icon."
+                >
+            </a>
+            <img
+                src="/UIs Icons/Light Mode - Teams.png"
+                src-light="/UIs Icons/Light Mode - Teams.png"
+                src-dark="/UIs Icons/Dark Mode - Teams.png"
+                width="36" height="36" class="teams-img" id="icon"
+                alt="3 peoples side by side with < / > in their chest. Teams Icon."
+            >
+            <a href=""><button class="teams">TEAMS</button></a>
+        </header>
+
+        <body onload="onload()">
+            <section>
+                <div class="profile-banner">
+                    <img src="/Profile Banners/Light Mode - Banner.jpg" width="850px" height="150%" class="banner-img">
+                    <div class="pfp-border">
+                        <img src="/Profile Pictures/Light Mode - Profile Picture.jpg" width="130px" height="130px" class="profile-picture">
+                        <div class="badges"></div> 
+                    </div>
+                    <div class="return">
+                        <a href="/Script Profile/profile.html" class="return-background">
+                            <img 
+                                src="/UIs Icons/Light Mode - Return.png" 
+                                src-light="/UIs Icons/Light Mode - Return.png"
+                                src-dark="/UIs Icons/Dark Mode - Return.png"
+                                width="30px" height="30px" class="return-img" id="icon"
+                                alt="A button with a arrow pointing to the left. Return Buttton"
+                            >
+                        </a>
+                    </div>
+                    <div class="save">
+                        <button class="save-background">
+                            <img 
+                                src="/UIs Icons/Light Mode - Save.png"
+                                src-light="/UIs Icons/Light Mode - Save.png"
+                                src-dark="/UIs Icons/Dark Mode - Save.png"
+                                width="30px" height="30px" class="save-img" id="icon"
+                                alt="A button with a check icon. Save Changes Button"
+                            >
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="name-tab">
+                    <p class="name-text">NAME:</p>
+                    <p class="name">GABS_MSEY</p>
+                </div>
+                <div class="bio-tab">
+                    <textarea maxlength="3000" placeholder="BIO:" name="Profile Bio" class="bio-area"></textarea>
+                </div>
+                <div class="specialty-tab">
+                        <p class="specialty-text">SPECIALTY</p>
+                    <div class="specialty-1">
+                        <p class="role-1">DESIGNER</p>
+                    </div>
+                    <div class="specialty-2">
+                        <p class="role-2">PHOTOGRAPHER</p>
+                    </div>
+                    <div class="specialty-3">
+                        <p class="role-3">SKIN MAKER</p>
+                    </div>
+                    <div class="specialty-4"></div>
+                    <div class="specialty-5"></div>
+                    <div class="specialty-6"></div>
+                    <div class="specialty-7"></div>
+                    <div class="specialty-8"></div>
+                </div>
+            </section>
+            <section>
+                <div class="lang-tab">
+                    <p class="lang-text">LANGUAGE</p>
+                    <div class="lang-1">
+                        <p class="ptbr">PTBR</p>
+                    </div>
+                    <div class="lang-2">
+                        <p class="eng">ENGLISH</p>
+                    </div>
+                    <div class="lang-3">
+                        <button type="button" class="add">+</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="social-media-tab">
+                    <p class="social-media-text">SOCIAL MEDIA</p>
+                    <div class="sm-1">  
+                        <p class="twitter">TWITTER:</p>
+                        <a href="https://twitter.com/gabsmsey" class="link-tw">https://twitter.com/gabsmsey</a>
+                    </div>
+                    <div class="sm-2">
+                        <a href="" class="youtube">YOUTUBE:</a>
+                        <a href="" class="link-yt">https://www.youtube.com/channel/UC...</a>
+                    </div>
+                    <div class="sm-3">
+                        <p class="github">GITHUB:</p>
+                        <a href="https://github.com/gabspedro" class="link-gh">https://github.com/gabspedro</a>
+                    </div>
+                </div>
+                <div class="work-history-tab">
+                    <p class="work-history-text">WORK HISTORY</p>
+                    <div class="job-img-background">
+                        <div class="job-img">
+                            <button class="add-logo">
+                                <img 
+                                    src="/UIs Icons/Light Mode - Upload.png"
+                                    src-light="/UIs Icons/Light Mode - Upload.png"
+                                    src-dark="/UIs Icons/Dark Mode - Upload.png"
+                                    width="50px" height="50px" class="add-img-img1" id="icon"
+                                    alt="Upload Button"
+                                >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="job-name-n-role">  
+                        <input maxlength="27" placeholder="COMPANY NAME" name="Company Name" class="company-name"></input>
+                    </div>
+                    <div class="description">
+                        <textarea maxlength="500" placeholder="DESCRIPTION" name="Company Description" class="company-desc"></textarea>
+                    </div>
+                    <div class="work-add-tab">
+                        <button class="work-add">+</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="album-tab">
+                    <p class="album-text">ALBUNS</p>
+                    <div class="a1">
+                        <p class="a1-text">DESIGNS</p>
+                    </div>
+                    <div class="a2">
+                        <p class="a2-text">PHOTOGRAPHY</p>
+                    </div>
+                    <div class="a3">
+                        <p class="a3-text">SKIN MAKER</p>
+                    </div>
+                    <div class="a4">
+                        <button class="a4-add">+</button>
+                    </div>
+                    <div class="img-add-background">
+                        <div class="img1-tab">
+                            <img 
+                                src="/UIs Icons/Light Mode - Featured  Photos.png"
+                                src-light="/UIs Icons/Light Mode - Featured  Photos.png" 
+                                src-dark="/UIs Icons/Dark Mode - Featured  Photos.png" 
+                                width="25px" height="25px" class="featured-img" id="icon"
+                                alt="A star icon. Featured Photos"
+                            >
+                            <button class="add-img1">
+                                <img 
+                                    src="/UIs Icons/Light Mode - Upload.png"
+                                    src-light="/UIs Icons/Light Mode - Upload.png"
+                                    src-dark="/UIs Icons/Dark Mode - Upload.png"
+                                    width="50px" height="50px" class="add-img-img1" id="icon"
+                                    alt="Upload Button"
+                                >
+                            </button>
+                            <img src="" class="img1">
+                        </div>
+                        <div class="img2-tab">
+                            <img 
+                                src="/UIs Icons/Light Mode - Featured  Photos.png"
+                                src-light="/UIs Icons/Light Mode - Featured  Photos.png" 
+                                src-dark="/UIs Icons/Dark Mode - Featured  Photos.png" 
+                                width="25px" height="25px" class="featured-img" id="icon"
+                                alt="A star icon. Featured Photos"
+                            >
+                            <button class="add-img2">
+                                <img 
+                                    src="/UIs Icons/Light Mode - Upload.png"
+                                    src-light="/UIs Icons/Light Mode - Upload.png"
+                                    src-dark="/UIs Icons/Dark Mode - Upload.png"
+                                    width="50px" height="50px" class="add-img-img1" id="icon"
+                                    alt="Upload Button"
+                                >
+                            </button>
+                            <img src="" class="img2">
+                        </div>
+                        <div class="img3-tab">
+                            <img 
+                                src="/UIs Icons/Light Mode - Featured  Photos.png"
+                                src-light="/UIs Icons/Light Mode - Featured  Photos.png" 
+                                src-dark="/UIs Icons/Dark Mode - Featured  Photos.png" 
+                                width="25px" height="25px" class="featured-img" id="icon"
+                                alt="A star icon. Featured Photos"
+                            >
+                            <button class="add-img3">
+                                <img 
+                                    src="/UIs Icons/Light Mode - Upload.png"
+                                    src-light="/UIs Icons/Light Mode - Upload.png"
+                                    src-dark="/UIs Icons/Dark Mode - Upload.png"
+                                    width="50px" height="50px" class="add-img-img1" id="icon"
+                                    alt="Upload Button"
+                                >
+                            </button>
+                            <img src="" class="img3">
+                        </div>
+                    </div>
+                    <div class="up-gallery-tab">
+                        <button class="up-gallery">UPLOAD TO GALLERY</button>
+                    </div>
+                </div>
+            </section>
+        </body>
+
+        <footer>
+            <div class="bottom-bar">
+                <p class="copyright">gabs.msey©</p>
+                <p class="pd">Gabriel Henrique Oliveira Pedro - PDITA130</p>
+                <a href=""><button class="about-us">ABOUT US</button></a>
+                <a href="" class="arrow">
+                    <img 
+                        src="/UIs Icons/Light Mode - Arrow.png"
+                        src-light="/UIs Icons/Light Mode - Arrow.png"
+                        src-dark="/UIs Icons/Dark Mode - Arrow.png"
+                        width="10" height="10" class="bb-arrow" id="icon"
+                        alt="A arrow without the tail pointing to the right"
+                    >
+                </a>
+            </div>
+        </footer>
+        <script src="/Script User Home/theme.js"></script>
+    </main>
+</html>

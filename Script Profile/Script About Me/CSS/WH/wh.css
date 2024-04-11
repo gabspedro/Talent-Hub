@@ -1,0 +1,247 @@
+/* Default Theme (Light Mode)  */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B5;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Work History */
+
+.work-history-tab {
+	background-color: var(--third-background);
+	width: 780px;
+	height: 770px;
+	position: absolute;
+	top: 740px;
+	left: 550px;
+	border-radius: 15px;
+}
+.work-overflow {
+	background-color: #D9D9D900;
+	width: 90.5%;
+	height: 90%;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.work-overflow::-webkit-scrollbar {
+	width: 5px;
+}
+.work-overflow::-webkit-scrollbar-thumb {
+	background-color: #BEBEBE;
+	width: 10px;
+	border-radius: 100px;
+}
+.work-overflow::-webkit-scrollbar-track {
+	background-color: #D9D9D900;
+	border-radius: 100px;
+}
+.wh-text {
+	font-size: 20px;
+	position: absolute;
+	top: -3px;
+	left: 345px;	
+}
+.job-img-background {
+	background-color: var(--fourth-background);
+	width: 220px;
+	height: 220px;
+	position: absolute;
+	top: 0x;
+	left: 0px;
+	border-radius: 8px;
+}
+.job-img {
+	background-color: var(--fifth-backgroud);
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 8px;
+}
+.company-img {
+	opacity: 0%;
+}
+.job-name-n-role {
+	background-color: var(--fourth-background);
+	width: 450px;
+	height: 45px;
+	position: absolute;
+	top: 0px;
+	left: 230px;
+	border-radius: 8px;
+}
+.description {
+	background-color: var(--fourth-background);
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	top: 55px;
+	left: 230px;
+	border-radius: 8px;
+}
+.company-name {
+	background-color: #c0c0c000;
+	color: var(--text-color);
+	border: none;
+	font-family: "K2D", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+	font-size: 20px;
+	width: 95%;
+	height: 95%;
+	position: absolute;
+	left: 10px;
+}
+.company-name::placeholder {
+	color: var(--text-color);
+	opacity: 1;
+}
+.company-name::-ms-input-placeholder {
+	color: var(--text-color);
+}
+.company-name:focus {
+	outline: none;
+}
+.company-desc {
+	background-color: #C0C0C000;
+	color: var(--text-color);
+	border: none;
+	font-family: "K2D", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+	font-size: 20px;
+	width: 95%;
+	height: 96%;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	resize: none;
+}
+.company-desc::placeholder {
+	color: var(--text-color);
+	opacity: 1;
+}
+.company-desc::-ms-input-placeholder {
+	color: var(--text-color);
+}
+.company-desc:focus {
+	outline: none;
+}	
+.job-img-background2 {
+	background-color: var(--fourth-background);
+	width: 220px;
+	height: 220px;
+	position: absolute;
+	top: 480px;
+	left: 0px;
+	border-radius: 8px;
+}
+.job-img2 {
+	background-color: var(--fifth-backgroud);
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 8px;
+}
+.company-img2 {
+	opacity: 0%;
+}
+.job-name-n-role2 {
+	background-color: var(--fourth-background);
+	width: 450px;
+	height: 45px;
+	position: absolute;
+	top: 480px;
+	left: 230px;
+	border-radius: 8px;
+}
+.description2 {
+	background-color: var(--fourth-background);
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	top: 535px;
+	left: 230px;
+	border-radius: 8px;
+}
+.company-name2 {
+	background-color: #c0c0c000;
+	color: var(--text-color);;
+	border: none;
+	font-family: "K2D", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+	font-size: 20px;
+	width: 95%;
+	height: 95%;
+	position: absolute;
+	left: 10px;
+}
+.company-name2::placeholder {
+	color: var(--text-color);;
+	opacity: 1;
+}
+.company-name2::-ms-input-placeholder {
+	color: var(--text-color);;
+}
+.company-name2:focus {
+	outline: none;
+}
+.company-desc2 {
+	background-color: #C0C0C000;
+	color: var(--text-color);
+	border: none;
+	font-family: "K2D", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+	font-size: 20px;
+	width: 95%;
+	height: 96%;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	resize: none;
+}
+.company-desc2::placeholder {
+	color: var(--text-color);
+	opacity: 1;
+}
+.company-desc2::-ms-input-placeholder {
+	color: var(--text-color);
+}
+.company-desc2:focus {
+	outline: none;
+}

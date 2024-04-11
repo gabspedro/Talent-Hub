@@ -1,0 +1,143 @@
+/* Default Theme (Light Mode)  */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Albuns */
+
+@media (max-width: 481px) {
+	.album-tab {
+		width: 441px;
+		height: 40px;
+		position: absolute;
+		top: 1900px;
+		left: 20px;
+	}
+	.album-text {
+		position: absolute;;
+		left: 180px;
+	}
+	.a1 {
+		width: 215px;
+		height: 40px;
+		position: absolute;
+		top: 50px;
+		left: 0px;
+	}
+	.a1-text {
+		position: absolute;
+		left: 75px;
+	}
+	.a2 {
+		width: 215px;
+		height: 40px;
+		position: absolute;
+		top: 50px;
+		left: 225px;
+	}
+	.a2-text {
+		position: absolute;
+		left: 52px;
+	}
+	.a3 {
+		width: 215px;
+		height: 40px;
+		position: absolute;
+		top: 100px;
+		left: 0px;
+	}
+	.a3-text {
+		position: absolute;
+		left: 61px;
+	}
+	.a4 {
+		width: 215px;
+		height: 40px;
+		position: absolute;
+		top: 100px;
+		left: 225px;
+	}
+	.a4-add:hover {
+		color: var(--text-color);
+		font-size: 20px;
+	}
+	.img-add-background {
+		width: 441px;
+		height: 440px;
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		border-radius: 8px;
+	}
+	.img1-tab {
+		width: 205px;
+		height: 420px;
+	}
+	.add-img-img1:hover {
+		height: 50px;
+		width: 50px;
+	}
+	.img2-tab {
+		background-color: var(--third-background);
+		width: 205px;
+		height: 205px;
+	}
+	.add-img-img2:hover {
+		height: 55px;
+		width: 55px;
+	}
+	.img3-tab {
+		background-color: var(--third-background);
+		width: 205px;
+		height: 205px;
+	}
+	.add-img-img3:hover {
+		height: 55px;
+		width: 55px;
+	}
+	.up-gallery-tab {
+		width: 441px;
+		position: absolute;
+		top: 598px;
+	}
+	.up-gallery:hover {
+		color: var(--text-color);
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+

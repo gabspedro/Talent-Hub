@@ -1,0 +1,120 @@
+/* Default Theme (Light Theme) */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* About Me */
+    
+@media (max-width: 481px) {
+
+    .about-me {
+        width: 440px;
+        height: 448px;
+        position: absolute;
+        top: 800px;
+        left: 20px;
+    }
+    .abt {
+        height: 18px;
+        font-size: 17px;
+        position: absolute;
+        top: 10px;
+        left: 35px;
+    }
+    .abt:hover {
+        color: var(--text-color);
+        font-size: 17px;
+    }
+    .abt-arrow {
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: 17px;
+        left: 130px;
+    }
+    .abt-arrow:hover {
+        width: 13px;
+        height: 13px;
+    }
+    .tw-img {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 410px;
+        left: 50px;
+    }
+    .tw-text {
+        font-size: 14px;
+        position: absolute;
+        top: 206px;
+        left: 37px;
+    }
+    .tw-text:hover {
+        color: var(--text-color);
+        font-size: 14px;
+    }
+    .yt-img {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 410px;
+        left: 175px;
+    }
+    .yt-text {
+        font-size: 14px;
+        position: absolute;
+        top: 412.5px;
+        left: 200px;
+    }
+    .yt-text:hover {
+        color: var(--text-color);
+        font-size: 14px;
+    }
+    .gh-img {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 410px;
+        left: 300px;
+    }
+    .gh-text {
+        font-size: 14px;
+        position: absolute;
+        top: 412.5px;
+        left: 327px;
+    }
+    .gh-text:hover {
+        color: var(--text-color);
+        font-size: 14px;
+    }
+}

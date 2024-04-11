@@ -1,0 +1,69 @@
+/* Default Theme (Light Mode)  */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #323232;
+	--fifth-backgroud: #2a2a2a;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Upper Bar */
+
+@media (max-width: 481px) {
+    .upper-bar {
+        width: 441px;
+        height: 60px;
+        position: absolute;
+        top: 58px;
+        left: 5px;
+    }
+    .return:hover {
+        width: 45px;
+        height: 45px;
+    }
+    .about-tab {
+        width: 400px;
+        position: absolute;
+        left: 60px;
+    }
+    .about-tab button {
+        font-size: 16px;
+    }
+    .design:hover {
+        color: var(--text-color);
+        font-size: 16px;
+    }
+    .photography:hover {
+        color: var(--text-color);
+        font-size: 16px;
+    }
+    .skin:hover {
+        color: var(--text-color);
+        font-size: 16px;
+    }
+}
