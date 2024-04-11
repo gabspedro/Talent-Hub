@@ -35,7 +35,7 @@
 
 /* Navigation Bar */
 
-@media (max-width: 481px) {
+@media (max-width: 480px) {
 
 	header button {
 		display: none;
