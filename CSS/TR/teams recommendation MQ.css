@@ -1,0 +1,95 @@
+/* Default Mode (Light Mode) */
+
+:root {
+	--primary-background: #E3E3E3;
+	--bottombar-color: #E6E6E6;
+	--second-background: #D9D9D9;
+	--third-background: #CCCCCC;
+	--fourth-background: #C0C0C0;
+	--fifth-backgroud: #B5B5B;
+	--scroll-color: #BEBEBE;
+	--text-color: #2E2E2E;
+	--text-color-hover: #2E2E2E77;
+	--text-color-active: #000000;
+	--carrosel-selected-color: #2E2E2E;
+	--carrosel-next-color: #787878;
+}
+
+/* Dark Mode */
+
+[theme="dark"] {
+	--primary-background: #222222;
+	--bottombar-color: #252525;
+	--second-background: #2E2D2D;
+	--third-background: #383838;
+	--fourth-background: #282828;
+	--fifth-backgroud: #202020;
+	--scroll-color: #BEBEBE;
+	--text-color: #EBEBEB;
+	--text-color-hover: #EBEBEB77;
+	--text-color-active: #FFFFFF;
+	--carrosel-selected-color: #EBEBEB;
+	--carrosel-next-color: #7B7B7B;
+}
+
+/* Teams Recommendation */
+
+@media (max-width: 481px) {
+
+	.tr-tab {
+		width: 440px;
+		position: absolute;
+		top: 765px;
+		left: 20px;
+	}
+	.tr-second {
+		width: 440px;
+		position: absolute;
+		top: 825px;
+		left: 20px
+	}
+	.tr-company-icon {
+		position: absolute;
+		top: 8px;
+		left: 12px;
+		border-radius: 100%;
+	}
+	.tr-overflow {
+		width: 413.5px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	.company-1 {
+		width: 400px;
+	}
+	.company-2 {
+		width: 400px;
+	}
+	.company-3 {
+		width: 400px;
+	}
+	.company-4 {
+		width: 400px;
+	}
+	.company-5 {
+		width: 400px;
+	}
+	.company-6 {
+		width: 400px;
+	}
+	.company-7 {
+		width: 400px;
+	}
+	.company-8 {
+		width: 400px;
+	}
+	.company-9 {
+		width: 400px;
+	}
+	.company-10 {
+		width: 400px;
+	}
+	.company-11 {
+		width: 400px;
+	}
+}
