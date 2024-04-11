@@ -33,7 +33,7 @@
 
 /* HTML */
 
-@media (max-width: 481px) {
+@media (max-width: 480px) {
 
 	body {
 		overflow-y: auto;
