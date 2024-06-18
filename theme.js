@@ -5,7 +5,7 @@
 const btn = document.getElementById("modeToggle");
 const btn2 = document.getElementById("modeToggle2");
 const themeIcons = document.querySelectorAll("#icon");
-const themeIcons2 = document.querySelectorAll(".icons"); // Essa linha eu que adicionei para conseguir trocar o ícone do botão do tema, por que não teria como utilizar o ID da linha anterior por estar utilizando o modoToggle e modeToggle2 como ID
+const themeIcons2 = document.querySelectorAll(".icons");
 const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme === "dark") {
