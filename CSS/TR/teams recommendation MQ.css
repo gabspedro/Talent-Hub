@@ -34,7 +34,7 @@
 
 /* Teams Recommendation */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
 	.tr-tab {
 		width: 440px;
