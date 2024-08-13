@@ -34,7 +34,7 @@
 
 /* Jobs Recommendation */
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
         .jr-tab {
             width: 440px;
